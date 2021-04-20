@@ -1,0 +1,21 @@
+﻿@model CategoryListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+<h1>Category List</h1>
+
+<table class="table table-bordered">
+    @foreach (var category in Model.Categories)
+    {
+        
+        <tr>
+            <td>@category.CategoryId</td>
+            <td>@category.CategoryName</td>
+            <td><a href="/category/delete?categoryId=@category.CategoryId" class="alert-danger">Delete</a></td>
+            <td><a href="/category/update?categoryId=@category.CategoryId" class="alert-warning">Update</a></td>
+        </tr>    
+    }
+</table>
+<a href="/category/add" class="alert alert-success">Add New Category</a>

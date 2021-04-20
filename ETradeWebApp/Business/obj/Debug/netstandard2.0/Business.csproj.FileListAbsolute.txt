@@ -1,0 +1,16 @@
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\Core.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\DataAccess.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\Entities.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\Business.deps.json
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\Business.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\Business.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\Entities.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\bin\Debug\netstandard2.0\Core.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\obj\Debug\netstandard2.0\Business.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\obj\Debug\netstandard2.0\Business.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache

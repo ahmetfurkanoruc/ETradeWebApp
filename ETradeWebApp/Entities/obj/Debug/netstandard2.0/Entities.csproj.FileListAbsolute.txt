@@ -1,0 +1,12 @@
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\bin\Debug\netstandard2.0\Entities.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\bin\Debug\netstandard2.0\Entities.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\bin\Debug\netstandard2.0\Core.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\bin\Debug\netstandard2.0\Core.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\obj\Debug\netstandard2.0\Entities.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Entities\obj\Debug\netstandard2.0\Entities.pdb

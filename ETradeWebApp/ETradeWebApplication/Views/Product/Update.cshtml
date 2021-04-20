@@ -1,0 +1,24 @@
+﻿@model ProductListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+<h1>Update Product</h1>
+
+<form asp-controller="Product" asp-action="Update">
+    Category Id:<input asp-for=@Model.Product.CategoryId /><br />
+    Product Name: <input asp-for=@Model.Product.ProductName /><br />
+    Quantity Per Unit:<input asp-for=@Model.Product.QuantityPerUnit /><br />
+    Unit Price:<input asp-for=@Model.Product.UnitPrice /><br />
+    Units In Stock:<input asp-for=@Model.Product.UnitsInStock /><br />
+    Photo: <input asp-for="@Model.Product.ProductImageUrl" /><br />
+    <input type="hidden" asp-for=@Model.Product.ProductId /><br />
+    <button class="alert-warning" type="submit">Update</button>
+</form>
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

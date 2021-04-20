@@ -1,0 +1,20 @@
+﻿@model CategoryListViewModel
+
+
+    <h2>Category</h2>
+    <div class="panel-group category-products" id="accordian">
+        <!--category-productsr-->
+        @foreach (var category in Model.Categories)
+        {
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title"><a href="/product/index?categoryId=@category.CategoryId">@category.CategoryName</a></h4>
+                </div>
+            </div>
+        }
+
+    </div><!--/category-productsr-->
+    <div class="shipping text-center">
+        <!--shipping-->
+        <img src="images/home/shipping.jpg" alt="" />
+    </div><!--/shipping-->

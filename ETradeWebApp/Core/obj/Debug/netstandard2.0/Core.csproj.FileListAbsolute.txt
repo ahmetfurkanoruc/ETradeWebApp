@@ -1,0 +1,9 @@
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\bin\Debug\netstandard2.0\Core.deps.json
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\bin\Debug\netstandard2.0\Core.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\bin\Debug\netstandard2.0\Core.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\obj\Debug\netstandard2.0\Core.dll
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\obj\Debug\netstandard2.0\Core.pdb
+D:\C# .Net Core Web Applications\ETradeWebApp\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache

@@ -1,0 +1,68 @@
+﻿@model CartListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+
+<h1>Cart</h1>
+
+@if (Model.Cart.CartLines.Count == 0)
+{
+    <h2 class="badge badge-danger">Cart is Empty !!</h2>
+}
+else
+{
+    
+    <section id="cart_items">
+        <div class="container">
+            <div class="breadcrumbs">
+                <ol class="breadcrumb">
+                    <li><a href="/product/index">Home</a></li>
+                    <li class="active">Shopping Cart</li>
+                </ol>
+            </div>
+            <div class="table-responsive cart_info">
+                <table class="table table-condensed">
+                    <thead>
+                        <tr class="cart_menu">
+                            <td class="image">Item</td>
+                            <td class="description">Name</td>
+                            <td class="price">Price</td>
+                            <td class="quantity">Quantity</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var cartLine in Model.Cart.CartLines)
+                        {
+                            <tr>
+                                <td class="cart_product">
+                                    <img src="@("~/image/"+ cartLine.Product.ProductImageUrl)" asp-append-version="true" width="250px" height="250px" />
+                                </td>
+                                <td class="cart_description">
+                                    <h4>@cartLine.Product.ProductName</h4>
+                                    <p>Web ID: 1089772</p>
+                                </td>
+                                <td class="cart_price">
+                                    <p>@cartLine.Product.UnitPrice</p>
+                                </td>
+                                <td class="cart_quantity_button">
+                                    <p class="h4">@cartLine.Quantity</p>
+                                </td>
+                                <td class="cart_delete">
+                                    <a class="cart_quantity_delete" asp-controller="Cart" asp-action="RemoveFromCart" asp-route-productId="@cartLine.Product.ProductId"><i class="fa fa-times"></i></a>
+                                </td>
+                            </tr>
+
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+ <!--/#cart_items-->
+}
+
+

@@ -1,0 +1,34 @@
+﻿@model ProductListViewModel
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "_IndexLayout";
+}
+
+<div class="product-details">
+    <div class="col-sm-5">
+        <div class="view-product">
+            <img src="@("~/image/"+ Model.Product.ProductImageUrl)" asp-append-version="true" width="250px" height="250px" alt="" />
+        </div>
+
+    </div>
+
+    <div class="col-sm-7">
+        <!--/product-information-->
+        <img src="images/product-details/new.jpg" class="newarrival" alt="" />
+        <h2>@Model.Product.ProductName</h2>
+        <p>Web ID: 1089772</p>
+        <img src="images/product-details/rating.png" alt="" />
+        <span>
+            <label>Price : @Model.Product.UnitPrice$</label><br />
+            <label>Units In Stock: @Model.Product.UnitsInStock</label>
+        </span>
+        <p><b>Availability:</b> In Stock</p>
+        <p><b>Condition:</b> New</p>
+        <p><b>Brand:</b> E-SHOPPER</p><br />
+        <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@Model.Product.ProductId" class="btn btn-fefault cart">
+            <i class="fa fa-shopping-cart"></i>
+            Add to cart
+        </a>
+        <a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
+    </div>
+</div>

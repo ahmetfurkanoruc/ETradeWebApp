@@ -1,0 +1,42 @@
+﻿@model ProductListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_IndexLayout";
+}
+
+
+<section id="advertisement">
+    <div class="container">
+        <img src="images/shop/advertisement.jpg" alt="" />
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <!--features_items-->
+        <h2 class="title text-center">Features Items</h2>
+        @foreach (var product in Model.Products)
+        {
+            <div class="col-sm-4">
+                <div class="product-image-wrapper">
+                    <div class="single-products">
+                        <div class="productinfo text-center">
+                            <img src="@("~/image/"+ product.ProductImageUrl)" asp-append-version="true" width="250px" height="250px" alt="" />
+                            <h2>@product.UnitPrice $</h2>
+                            <a href="/product/detail?productId=@product.ProductId"><p>@product.ProductName</p></a>
+                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@product.ProductId" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="choose">
+                        <ul class="nav nav-pills nav-justified">
+                            <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
+                            <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        }
+        
+    </div><!--features_items-->
+
+</section>
